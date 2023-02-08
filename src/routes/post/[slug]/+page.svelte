@@ -1,5 +1,5 @@
 <script>
-  import { website, name, bio, avatar } from '$lib/info.js'
+  import { website, name, footer, avatar } from '$lib/info.js'
   import ToC from '$lib/components/ToC.svelte'
   import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
   import SocialLinks from '$lib/components/SocialLinks.svelte'
@@ -106,7 +106,7 @@
           </a>
         </div>
         <p class="order-3 text-base text-zinc-600 dark:text-zinc-400">
-          {bio}
+          {footer}
         </p>
       </div>
     </div>

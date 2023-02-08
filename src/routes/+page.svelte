@@ -16,7 +16,7 @@
 </svelte:head>
 
   <!-- bio -->
-  <section class="flex flex-col items-center gap-16 pt-8 pb-16 bg-rose-500">
+  <section class="mb-4 p-8 rounded-lg relativelg:-mx-40 lg:mb-44 lg:px-8 xl:-mx-64 xl:mb-[10rem] 2xl:-mx-60 2xl:mb-48  bg-gradient-to-r dark:from-neutral-600   from-neutral-100 to-neutral-300 ">
     <div class="flex flex-col items-center w-full gap-6 rounded-lg">
       <img
         src={avatar}
@@ -26,7 +26,7 @@
       <div class="flex gap-6">
         <SocialLinks />
       </div>
-      <p class="text-base text-zinc-600 dark:text-zinc-400">
+      <p class="prose text-base text-zinc-900 dark:text-zinc-400">
         {bio}
       </p>
     </div>

@@ -3,25 +3,23 @@
 // feel free to remove this file.
 
 // URL of your website
-export const website = 'https://sveltekit-blog-template.vercel.app'
+export const website = 'buildletter.pl'
 
 export const firstName = 'Build'
 export const lastName = 'Letter'
 export const name = `${firstName} ${lastName}`
 
 // Used for the landing page & footer of posts
-export const avatar = 'img/michal.jpg' //'https://dsc.cloud/c49b4b/head_1.jpeg' //'https://api.lorem.space/image/face?w=250&h=250'
+export const avatar = 'http://localhost:5173/img/michal.jpg' //'https://dsc.cloud/c49b4b/head_1.jpeg' //'https://api.lorem.space/image/face?w=250&h=250'
 export const bio = `\
-I’m ${firstName}, a software engineer based in Canada. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Phasellus accumsan quam at eros malesuada, id luctus lectus efficitur. Nulla
-sit amet arcu mi. Duis quis mauris malesuada, posuere orci et, pulvinar nisl. Nam malesuada
-vehicula sapien vitae sagittis.
+Cześć:) Nazywam się Michał.
+I chcę Tobie poopowiadać o marketingu. O tym jak się reklamować i przyciągać nowych klientów.
 `
-
+export const footer = `Cześć informacji przeczytasz na moim blogu. Cześć jest wysłana tylko do czyteników Newslettera. `
 // Your social usernames, empty strings won't be used.
 // For sake of the live demo, I'm using `username/repo` for github,
 // but you can replace with just your username.
-export const github = 'mattjennings/sveltekit-blog-template'
-export const twitter = ''
+export const github = ''
+export const twitter = '@michaldanieluk'
 export const linkedin = ''
 export const instagram = ''
