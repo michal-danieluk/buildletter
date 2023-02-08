@@ -5,9 +5,8 @@
   import SunIcon from 'heroicons-svelte/solid/SunIcon.svelte'
   import Footer from '$lib/components/Footer.svelte';
   import { browser } from '$app/environment'
-  import { name } from '$lib/info'
+  import { avatar, bio, name } from '$lib/info'
   import { page } from '$app/stores'
-
   let isDarkMode = browser ? Boolean(document.documentElement.classList.contains('dark')) : true
 
   function disableTransitionsTemporarily() {
@@ -62,7 +61,8 @@
         <MoonIcon class="hidden text-zinc-500 dark:block" />
         <SunIcon class="block text-zinc-400 dark:hidden" />
       </button>
-    </header>
+        </header>
+
     <main
       class="flex flex-col flex-grow w-full mx-auto"
       class:max-w-2xl={!$page.data.layout?.fullWidth}

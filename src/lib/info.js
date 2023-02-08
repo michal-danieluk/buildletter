@@ -10,7 +10,7 @@ export const lastName = 'Letter'
 export const name = `${firstName} ${lastName}`
 
 // Used for the landing page & footer of posts
-export const avatar = 'https://dsc.cloud/c49b4b/head_1.jpeg' //'https://api.lorem.space/image/face?w=250&h=250'
+export const avatar = 'img/michal.jpg' //'https://dsc.cloud/c49b4b/head_1.jpeg' //'https://api.lorem.space/image/face?w=250&h=250'
 export const bio = `\
 I’m ${firstName}, a software engineer based in Canada. Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Phasellus accumsan quam at eros malesuada, id luctus lectus efficitur. Nulla
