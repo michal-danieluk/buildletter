@@ -3,14 +3,14 @@
 // feel free to remove this file.
 
 // URL of your website
-export const website = 'buildletter.pl'
+export const website = 'https://buildletter.vercel.app'//'buildletter.pl'
 
 export const firstName = 'Build'
 export const lastName = 'Letter'
 export const name = `${firstName} ${lastName}`
 
 // Used for the landing page & footer of posts
-export const avatar = 'http://localhost:5173/img/michal.jpg' //'https://dsc.cloud/c49b4b/head_1.jpeg' //'https://api.lorem.space/image/face?w=250&h=250'
+export const avatar = 'https://buildletter.vercel.app/img/michal.jpg' //'http://localhost:5173/img/michal.jpg' //'https://dsc.cloud/c49b4b/head_1.jpeg' //'https://api.lorem.space/image/face?w=250&h=250'
 export const bio = `\
 Cześć:) Nazywam się Michał.
 I chcę Tobie poopowiadać o marketingu. O tym jak się reklamować i przyciągać nowych klientów.
