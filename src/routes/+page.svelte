@@ -21,7 +21,7 @@
       <img
         src={avatar}
         alt={name}
-        class="mx-auto rounded-lg h-72 ring-2 bg-white ring-zinc-200 dark:bg-gray-200 dark:ring-zinc-700"
+        class="mx-auto rounded-lg md:h-72 h-48 ring-2 bg-white ring-zinc-200 dark:bg-gray-200 dark:ring-zinc-700"
       />
 
       <p class="prose text-base text-zinc-900 dark:text-zinc-400">
