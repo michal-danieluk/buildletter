@@ -69,7 +69,7 @@
     >
       <slot />
       <div class="flex justify-center w-full">
-<div class="w-3/4">
+<div class="mx-auto">
 <script async data-uid="d926812260" src="https://successful-trailblazer-4001.ck.page/d926812260/index.js"></script>
 </div>
 </div>

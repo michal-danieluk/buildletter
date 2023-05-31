@@ -2,7 +2,7 @@
   import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte'
   import PostsList from '$lib/components/PostsList.svelte'
   import SocialLinks from '$lib/components/SocialLinks.svelte'
-  import Footer from '$lib/components/Footer.svelte'
+//  import Footer from '$lib/components/Footer.svelte'
 
   import { avatar, bio, name } from '$lib/info.js'
 
@@ -16,20 +16,22 @@
 </svelte:head>
 
   <!-- bio -->
-  <section class="mb-4 p-8 rounded-lg relativelg:-mx-40 lg:mb-44 lg:px-8 xl:-mx-64 xl:mb-[10rem] 2xl:-mx-60 2xl:mb-48  bg-gradient-to-r dark:from-neutral-600   from-neutral-100 to-neutral-300 ">
-    <div class="flex flex-col items-center w-full gap-6 rounded-lg">
+  <section class="flex flex-col mb-4 p-8 rounded-lg relativelg:-mx-40 lg:mb-44 lg:px-8 xl:-mx-64 xl:mb-[10rem] 2xl:-mx-60 2xl:mb-48  bg-gradient-to-r dark:from-neutral-600   from-neutral-100 to-neutral-300 ">
+    <div class="flex flex-col lg:flex-row items-center w-full m-2 gap-6 rounded-lg">
       <img
         src={avatar}
         alt={name}
-        class="mx-auto rounded-full w-36 h-36 ring-2 ring-zinc-200 dark:ring-zinc-700"
+        class="mx-auto rounded-lg h-72 ring-2 bg-white ring-zinc-200 dark:bg-gray-200 dark:ring-zinc-700"
       />
-      <div class="flex gap-6">
-        <SocialLinks />
-      </div>
+
       <p class="prose text-base text-zinc-900 dark:text-zinc-400">
         {bio}
       </p>
     </div>
+<hr class="border-0 h-px mt-8 bg-gray-600">
+      <div class="mx-auto flex mt-8 gap-6">
+        <SocialLinks />
+      </div>
   </section>
 <div class="flex flex-col flex-grow gap-8 pb-16">
 
