@@ -36,10 +36,10 @@
 
 
   <section class="flex flex-col lg:flex-row mb-4 p-8 gap-8 justify-between rounded-lg relativelg:-mx-40 lg:mb-44 lg:px-8 xl:-mx-64 xl:mb-[10rem] 2xl:-mx-60 2xl:mb-48  bg-gradient-to-r dark:from-neutral-600   from-neutral-100 to-neutral-300 ">
-<div class="bg-black text-white p-8 rounded-lg"> ;asljdk;asj f;aslj </div>
-<div class="bg-black text-white p-8 rounded-lg"> ;asljdk;asj f;aslj </div>
-<div class="bg-black text-white p-8 rounded-lg"> ;asljdk;asj f;aslj </div>
-<div class="bg-black text-white p-8 rounded-lg"> ;asljdk;asj f;aslj </div>
+<div class="bg-black text-white p-8 rounded-lg">Od czego zacząć? </div>
+<div class="bg-black text-white p-8 rounded-lg">Jak wykonać? </div>
+<div class="bg-black text-white p-8 rounded-lg">Gdzie szukać? </div>
+<div class="bg-black text-white p-8 rounded-lg">Narzędzia</div>
 </section>
 
 
