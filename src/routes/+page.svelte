@@ -16,7 +16,7 @@
 </svelte:head>
 
   <!-- bio -->
-  <section class="flex flex-col mb-4 p-8 rounded-lg relativelg:-mx-40 lg:mb-44 lg:px-8 xl:-mx-64 xl:mb-[10rem] 2xl:-mx-60 2xl:mb-48  bg-gradient-to-r dark:from-neutral-600   from-neutral-100 to-neutral-300 ">
+  <section class="flex flex-col mb-4 p-8 rounded-lg relativelg:-mx-40 lg:mb-44 lg:px-8 xl:-mx-64 xl:mb-[10rem] 2xl:-mx-60 2xl:mb-48  bg-gradient-to-r dark:from-neutral-500 dark:to-neutral-800  from-neutral-100 to-neutral-300 ">
     <div class="flex flex-col lg:flex-row items-center w-full m-2 gap-6 rounded-lg">
       <img
         src={avatar}
