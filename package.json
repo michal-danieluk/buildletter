@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
+		"devrs": "vite dev --host 192.168.1.163 --port 20163",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./jsconfig.json",
@@ -17,6 +18,7 @@
 		"@vcarl/remark-headings": "^0.0.1",
 		"autoprefixer": "^10.4.7",
 		"cssnano": "^5.0.15",
+		"daisyui": "^4.10.2",
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.3.0",

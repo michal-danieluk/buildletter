@@ -16,6 +16,7 @@ export const bio = `\
 Cześć:) Nazywam się Michał.
 I chcę Tobie poopowiadać o marketingu. O tym jak się reklamować i przyciągać nowych klientów.
 `
+export const slogan = `Marketing for Everyone. Almost everyone.`
 export const footer = `Cześć informacji przeczytasz na moim blogu. Cześć jest wysłana tylko do czyteników Newslettera. `
 // Your social usernames, empty strings won't be used.
 // For sake of the live demo, I'm using `username/repo` for github,
